@@ -1,0 +1,86 @@
+{
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				// 导航栏样式：自定义--不适用默认的导航条
+				"navigationStyle": "custom"
+				// "navigationBarTitleText": "邮食堂"
+				
+			}
+		}
+	    ,{
+            "path" : "pages/user-center/user-center",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/buy-car/buy-car",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/category/category",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+        ,{
+            "path" : "pages/product-search/product-search",
+            "style" :                                                                                    
+            {
+                "navigationBarTitleText": "",
+                "enablePullDownRefresh": false
+            }
+            
+        }
+    ],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "邮食堂",
+		"navigationBarBackgroundColor": "#F10215",
+		"backgroundColor": "#F8F8F8"
+	},
+	"tabBar": {
+		"color": "#888",
+		"selectedColor": "#0aa1ed",
+		"list": [
+			{
+				"pagePath": "pages/index/index",
+				"text": "首页",
+				"iconPath": "static/img/home.png",
+				"selectedIconPath": "/static/img/home_active.png"	
+			},
+			{
+				"pagePath": "pages/category/category",
+				"text": "分类",
+				"iconPath": "static/img/category.png",
+				"selectedIconPath": "static/img/category_active.png"
+			},
+			{
+				"pagePath": "pages/buy-car/buy-car",
+				"text": "购物车",
+				"iconPath": "static/img/brand.png",
+				"selectedIconPath": "static/img/brand_active.png"
+			},
+			{
+				"pagePath": "pages/user-center/user-center",
+				"text": "我的",
+				"iconPath": "static/img/user.png",
+				"selectedIconPath": "static/img/user_active.png"
+			}
+		]
+	}
+	
+}
